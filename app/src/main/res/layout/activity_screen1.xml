@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen1"
+    tools:context=".screen1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="420sp"
+        android:gravity="center"
+        android:text="Find a home of your dream"
+        android:textColor="#F1EEEE"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="Finding a Place to Live can be a difficult task, therefore we have done our best to
+simplify it."
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/getstarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="640sp"
+        android:backgroundTint="#514E4D"
+        android:fontFamily="sans-serif-light"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
